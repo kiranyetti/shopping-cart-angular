@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm justify-content-around bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">  
+        <span class="navbar-toggler-icon"></span>  
+       </button> 
+    <div class="navbar-brand text-white align-items-center d-flex">
+        <i class="fas fa-shipping-fast fa-3x mx-3" ></i>
+        <h2 routerLink="/" class="brand">Flipkart</h2>
+        <div class="form-group mx-5">
+            <input type="text" class="form-control" placeholder="Search Your Product">
+            <span class="fas fa-search text-dark"></span>
+        </div>
+    </div>
+
+    <div class="btn-container">
+        <button class="btn btn-warning mx-3 " routerLink="/signup"> Sign Up</button>
+        <button class="btn btn-warning" routerLink="/signin">Sign In</button>
+    </div>
+    <button  routerLink="/cart" class="btn btn-primary">
+        <i class="fas fa-cart-arrow-down fa-2x"></i>
+        <div style="width: 20px; height: 20px;" class="badge text-center bg-danger">5</div>
+    </button>
+
+  
+  </nav>
+  <router-outlet></router-outlet>
+

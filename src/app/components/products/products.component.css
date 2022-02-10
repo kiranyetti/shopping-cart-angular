@@ -1,0 +1,51 @@
+ .item{
+    text-align: center;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.item a:hover{
+    color: orange;
+}
+.item a{
+    text-decoration: none;
+}
+
+
+.card-body{
+    height: 600px;
+    width: 450px;
+}
+
+.card-body img{
+    width: 350px;
+    height: 400px;
+    transition: all 0.3s ease-in-out;
+}
+.card-body img:hover{
+    transform: scale(1.1);
+}
+
+.card-body p{
+    width: 350px;
+}
+
+.carousel-item{
+height: 300px;
+}
+
+.carousel-item img{
+    height: 300px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
